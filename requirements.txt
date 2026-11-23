@@ -1,0 +1,9 @@
+mediapipe==0.10.14
+numpy<2
+pyautogui
+sounddevice
+faster-whisper
+edge-tts
+pygame
+ddgs
+spotipy

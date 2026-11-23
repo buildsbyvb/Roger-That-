@@ -1,0 +1,11 @@
+VALUES FOR TABLE 4.2 (Actual Value column)
+Speech-to-text time          : 1.63 s average
+LLM response time            : 0.62 s average
+End-to-end response time     : 2.25 s average (speech end to LLM reply)
+English transcription WER    : 3.3 %
+Hindi/Hinglish WER           : 60.3 %
+Command execution success    : 90 % (18/20)
+Repeated interaction stability: 10/10 runs OK, 1.86-2.37 s
+
+Tested on: CPU, Whisper small, Groq openai/gpt-oss-20b
+Note: end-to-end does not include text-to-speech playback.

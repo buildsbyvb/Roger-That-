@@ -1,0 +1,22 @@
+# Big tools - users download these themselves (see README)
+platform-tools/
+scrcpy/
+phone_link.zip
+*.zip
+
+# Personal / runtime files
+.doit_pid
+reminders.json
+smart_pick_log.csv
+results.txt
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Downloaded AI models
+*.bin
+*.onnx
